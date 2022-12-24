@@ -1,0 +1,25 @@
+.tower {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    width: 90px;
+    height: 100%;
+    background-color: grey;
+    margin: 5px;
+}
+
+.tower:hover {
+    cursor: pointer;
+}
+
+.tower--selected {
+    background-color: goldenrod;
+}
+
+.ring {
+    width: 30px;
+    height: 15px;
+    background-color: bisque;
+    border-radius: 30%;
+}
